@@ -83,7 +83,7 @@
                 "data": [66],
                 "delta": [4]
             }
-        },
+        }, 
         {
             "key": "chart",
             "destination":"",

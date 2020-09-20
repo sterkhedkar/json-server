@@ -1,0 +1,373 @@
+{
+    "nps":[
+        {
+            "key": "kpi_metric",
+            "destination":"",
+            "labels": [8],
+            "datasets": {
+                "label": "nps",
+                "data": [43],
+                "delta": [3]
+            }
+        },
+        {
+            "key": "kpi_metric",
+            "destination":"Tabuk",
+            "labels": [8],
+            "datasets": {
+                "label": "nps",
+                "data": [-40],
+                "delta": [3]
+            }
+        },
+        {
+            "key": "chart",
+            "destination":"",
+            "labels": ["Apr", "May", "Jun", "Jul", "Aug"],
+            "datasets": {
+                "label": "nps",
+                "data": [35,38,35,40,43]
+            }
+        },
+        {
+            "key": "chart",
+            "destination":"Umluj",
+            "segment":"Sun and Sea",
+            "source_market":"Afghanistan",
+            "labels": ["Apr", "May", "Jun", "Jul", "Aug"],
+            "datasets": {
+                "label": "nps",
+                "data": [1,1,1,1,1]
+            }
+        }
+        
+    ],
+    "repeat_visit":[
+        {
+            "key": "kpi_metric",
+            "destination":"",
+            "labels": [8],
+            "datasets": {
+                "label": "repeat_visit",
+                "data": [63],
+                "delta": [3]
+            }
+        },
+        {
+            "key": "kpi_metric",
+            "destination":"Tabuk",
+            "labels": [8],
+            "datasets": {
+                "label": "repeat_visit",
+                "data": [60],
+                "delta": [3]
+            }
+        },
+        {
+            "key": "chart",
+            "destination":"Tabuk",
+            "labels": ["Apr", "May", "Jun", "Jul", "Aug"],
+            "datasets": {
+                "label": "repeat_visit",
+                "data": [51,55,52,57,60]
+            }
+        }
+    ],
+    "compliance":[
+        {
+            "key": "kpi_metric",
+            "destination":"Tabuk",
+            "labels": [8],
+            "datasets": {
+                "label": "compliance",
+                "data": [66],
+                "delta": [4]
+            }
+        },
+        {
+            "key": "chart",
+            "destination":"",
+            "labels": ["Q3 19", "Q4 19", "Q1 20", "Q2 20", "Q3 20"],
+            "datasets": {
+                "label": "compliance",
+                "data": [55,60,57,62,66]
+            }
+        }
+    ],
+    "visitation":[
+        {
+            "key": "kpi_metric",
+            "destination":"",
+            "labels": [8],
+            "datasets": {
+                "label": "visitation",
+                "data": [400000],
+                "delta": [70]
+            }
+        },
+        {
+            "key": "chart",
+            "destination":"",
+            "labels": ["Apr", "May", "Jun", "Jul", "Aug"],
+            "datasets": {
+                "label": "visitation",
+                "data": [100,150,235,235,400]
+            }
+        }
+    ],
+    "spend":[
+        {
+            "key": "kpi_metric",
+            "destination":"",
+            "labels": [8],
+            "datasets": {
+                "label": "spend",
+                "data": [25000000],
+                "delta": [14]
+            }
+        },
+        {
+            "key": "chart",
+            "filter":"",
+            "labels": ["Apr", "May", "Jun", "Jul", "Aug"],
+            "datasets": {
+                "label": "spend",
+                "data": [10,12,16,22,25]
+            }
+        }
+    ],
+    "csat": [
+        {
+            "data": [
+                {
+                    "y": 30,
+                    "r": 0
+                }
+            ]
+        },
+        {
+            "backgroundColor": "rgb(238,129,129)",
+            "label": "Inspiration",
+            "data": [
+                {
+                    "x": 30,
+                    "y": 80,
+                    "r": 26
+                }
+            ]
+        },
+        {
+            "backgroundColor": "rgb(255,184,108)",
+            "label": "Planning & \n Booking",
+            "data": [
+                {
+                    "x": 60,
+                    "y": 55,
+                    "r": 18
+                }
+            ]
+        },
+        {
+            "backgroundColor": "rgba(52, 181, 58, 0.6)",
+            "label": "Reaching\nDestination",
+            "data": [
+                {
+                    "x": 90,
+                    "y": 60,
+                    "r": 20
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "y": 90,
+                    "r": 0
+                }
+            ]
+        }
+    ],
+    "csato": [
+        {
+            "data": [
+                {
+                    "y": 40,
+                    "r": 0
+                }
+            ]
+        },
+        {
+            "backgroundColor": "",
+            "label": "Inspiration",
+            "data": [
+                {
+                    "x": 20,
+                    "y": 73,
+                    "r": 73
+                }
+            ]
+        },
+        {
+            "backgroundColor": "",
+            "label": "Planning &\n Booking",
+            "data": [
+                {
+                    "x": 80,
+                    "y": 77,
+                    "r": 77
+                }
+            ]
+        },
+        {
+            "backgroundColor": "",
+            "label": "Reaching\nDestination",
+            "data": [
+                {
+                    "x": 140,
+                    "y": 63,
+                    "r": 63
+                }
+            ]
+        },
+        {
+            "backgroundColor": "",
+            "label": "Tourist\nAttraction",
+            "data": [
+                {
+                    "x": 200,
+                    "y": 65,
+                    "r": 65
+                }
+            ]
+        },
+        {
+            "backgroundColor": "",
+            "label": "Leisure\nActivities",
+            "data": [
+                {
+                    "x": 260,
+                    "y": 61,
+                    "r": 61
+                }
+            ]
+        },
+        {
+            "backgroundColor": "",
+            "label": "Entertainment\nActivities",
+            "data": [
+                {
+                    "x": 320,
+                    "y": 55,
+                    "r": 55
+                }
+            ]
+        },
+        {
+            "backgroundColor": "",
+            "label": "F & B",
+            "data": [
+                {
+                    "x": 380,
+                    "y": 56,
+                    "r": 56
+                }
+            ]
+        },
+        {
+            "backgroundColor": "",
+            "label": "Retail",
+            "data": [
+                {
+                    "x": 420,
+                    "y": 56,
+                    "r": 56
+                }
+            ]
+        },
+        {
+            "backgroundColor": "",
+            "label": "Mobility",
+            "data": [
+                {
+                    "x": 500,
+                    "y": 59,
+                    "r": 59
+                }
+            ]
+        },
+        {
+            "backgroundColor": "",
+            "label": "Tourist Support\nServices",
+            "data": [
+                {
+                    "x": 550,
+                    "y": 50,
+                    "r": 50
+                }
+            ]
+        },
+        {
+            "backgroundColor": "",
+            "label": "Accomodation",
+            "data": [
+                {
+                    "x": 600,
+                    "y": 75,
+                    "r": 75
+                }
+            ]
+        },
+        {
+            "backgroundColor": "",
+            "label": "Leaving\nDestination",
+            "data": [
+                {
+                    "x": 650,
+                    "y": 80,
+                    "r": 80
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "y": 90,
+                    "r": 0
+                }
+            ]
+        }
+    ],
+    "scl":[
+            {"value":"destination","destination":"Tabuk","filter":"Tabuk","head":["NPS","Repeat_visit","Compliance"], "NPS":{"value":"86", "delta":"positive"},"Repeat_Visit":{"value":"91", "delta":"positive"},"Compliance":{"value":"63", "delta":"positive"}},
+            {"value":"destination","destination":"Umluj","filter":"Umluj","head":["NPS","Repeat_visit","Compliance"], "NPS":{"value":"69", "delta":"negative"},"Repeat_Visit":{"value":"73", "delta":"negative"},"Compliance":{"value":"52", "delta":"negative"}},
+            {"value":"destination","destination":"Abha","filter":"Abha","head":["NPS","Repeat_visit","Compliance"], "NPS":{"value":"68", "delta":"negative"},"Repeat_Visit":{"value":"86", "delta":"negative"},"Compliance":{"value":"67", "delta":"negative"}},
+            {"value":"destination","destination":"Jeddah","filter":"Jeddah","head":["NPS","Repeat_visit","Compliance"], "NPS":{"value":"46", "delta":"negative"},"Repeat_Visit":{"value":"52", "delta":"negative"},"Compliance":{"value":"72", "delta":"negative"}},
+            {"value":"destination","destination":"Al Baha","filter":"Al Baha","head":["NPS","Repeat_visit","Compliance"], "NPS":{"value":"28", "delta":"negative"},"Repeat_Visit":{"value":"49", "delta":"negative"},"Compliance":{"value":"66", "delta":"negative"}},
+            {"value":"destination","destination":"Yanbu","filter":"Yanbu","head":["NPS","Repeat_visit","Compliance"], "NPS":{"value":"27", "delta":"negative"},"Repeat_Visit":{"value":"49", "delta":"negative"},"Compliance":{"value":"70", "delta":"negative"}},
+            {"value":"destination","destination":"KAEC","filter":"KAEC","head":["NPS","Repeat_visit","Compliance"], "NPS":{"value":"27", "delta":"positive"},"Repeat_Visit":{"value":"41", "delta":"positive"},"Compliance":{"value":"80", "delta":"positive"}},
+            {"value":"destination","destination":"Tarf","filter":"Tarf","head":["NPS","Repeat_visit","Compliance"], "NPS":{"value":"10", "delta":"positive"},"Repeat_Visit":{"value":"27", "delta":"positive"},"Compliance":{"value":"62", "delta":"positive"}},
+            {"value":"destination","destination":"Jizan","filter":"Jizan","head":["NPS","Repeat_visit","Compliance"], "NPS":{"value":"10", "delta":"positive"},"Repeat_Visit":{"value":"26", "delta":"positive"},"Compliance":{"value":"72", "delta":"positive"}},
+
+            {"value":"segment","destination":"Tabuk","filter":"Tabuk", "head":["NPS","Repeat_visit","Compliance"],"NPS":{"value":"90", "delta":"positive"},"Repeat_Visit":{"value":"91", "delta":"positive"},"Compliance":{"value":"63", "delta":"positive"}},
+            {"value":"segment","destination":"Umluj","filter":"Umluj", "head":["NPS","Repeat_visit","Compliance"],"NPS":{"value":"69", "delta":"negative"},"Repeat_Visit":{"value":"73", "delta":"negative"},"Compliance":{"value":"52", "delta":"negative"}},
+            {"value":"segment","destination":"Abha","filter":"Abha", "head":["NPS","Repeat_visit","Compliance"],"NPS":{"value":"68", "delta":"negative"},"Repeat_Visit":{"value":"86", "delta":"negative"},"Compliance":{"value":"67", "delta":"negative"}},
+            {"value":"segment","destination":"Jeddah","filter":"Jeddah", "head":["NPS","Repeat_visit","Compliance"],"NPS":{"value":"46", "delta":"negative"},"Repeat_Visit":{"value":"52", "delta":"negative"},"Compliance":{"value":"72", "delta":"negative"}},
+            {"value":"segment","destination":"Al Baha","filter":"Al Baha", "head":["NPS","Repeat_visit","Compliance"],"NPS":{"value":"28", "delta":"negative"},"Repeat_Visit":{"value":"49", "delta":"negative"},"Compliance":{"value":"66", "delta":"negative"}},
+            {"value":"segment","destination":"Yanbu","filter":"Yanbu", "head":["NPS","Repeat_visit","Compliance"],"NPS":{"value":"27", "delta":"negative"},"Repeat_Visit":{"value":"49", "delta":"negative"},"Compliance":{"value":"70", "delta":"negative"}},
+            {"value":"segment","destination":"KAEC","filter":"KAEC","head":["NPS","Repeat_visit","Compliance"], "NPS":{"value":"27", "delta":"positive"},"Repeat_Visit":{"value":"41", "delta":"positive"},"Compliance":{"value":"80", "delta":"positive"}},
+            {"value":"segment","destination":"Tarf","filter":"Tarf", "head":["NPS","Repeat_visit","Compliance"],"NPS":{"value":"10", "delta":"positive"},"Repeat_Visit":{"value":"27", "delta":"positive"},"Compliance":{"value":"62", "delta":"positive"}},
+            {"value":"segment","destination":"Jizan","filter":"Jizan", "head":["NPS","Repeat_visit","Compliance"],"NPS":{"value":"10", "delta":"positive"},"Repeat_Visit":{"value":"26", "delta":"positive"},"Compliance":{"value":"72", "delta":"positive"}}
+    ],
+    "svscl":[
+            {"value":" ","filter":"Al Shallal Park 1", "Visitation":{"value":"95", "delta":"positive"},"Satisfaction":{"value":"47", "delta":"positive"},"Compliance":{"value":"86", "delta":"positive"}},
+            {"value":" ","filter":"Al Shallal Park 2", "Visitation":{"value":"81", "delta":"negative"},"Satisfaction":{"value":"47", "delta":"negative"},"Compliance":{"value":"97", "delta":"negative"}},
+            {"value":" ","filter":"Bicycle Ride", "Visitation":{"value":"73", "delta":"negative"},"Satisfaction":{"value":"34", "delta":"negative"},"Compliance":{"value":"45", "delta":"negative"}},
+            {"value":" ","filter":"Fakieh Aquarium", "Visitation":{"value":"63", "delta":"negative"},"Satisfaction":{"value":"30", "delta":"negative"},"Compliance":{"value":"97", "delta":"negative"}},
+            {"value":" ","filter":"Jeddah Middle Corniche", "Visitation":{"value":"55", "delta":"negative"},"Satisfaction":{"value":"42", "delta":"negative"},"Compliance":{"value":"62", "delta":"negative"}},
+            {"value":" ","filter":"Jeddah Waterfront Main", "Visitation":{"value":"52", "delta":"negative"},"Satisfaction":{"value":"33", "delta":"negative"},"Compliance":{"value":"75", "delta":"negative"}},
+            {"value":" ","filter":"Jeddah Waterfront North", "Visitation":{"value":"30", "delta":"positive"},"Satisfaction":{"value":"33", "delta":"positive"},"Compliance":{"value":"70", "delta":"positive"}},
+            {"value":" ","filter":"Jungle Land", "Visitation":{"value":"26", "delta":"positive"},"Satisfaction":{"value":"43", "delta":"positive"},"Compliance":{"value":"76", "delta":"positive"}},
+            {"value":" ","filter":"Vox Cinema", "Visitation":{"value":"19", "delta":"positive"},"Satisfaction":{"value":"100", "delta":"positive"},"Compliance":{"value":"98", "delta":"positive"}}
+    ]
+    
+}
